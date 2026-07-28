@@ -305,7 +305,6 @@ DOMAIN,gemini.google.com
 DOMAIN,copilot.microsoft.com
 DOMAIN,r.bing.com
 DOMAIN,services.bingapis.com
-DOMAIN,www.bing.com
 DOMAIN-KEYWORD,openaicom-api
 DOMAIN-SUFFIX,lmsys.org
 DOMAIN-KEYWORD,cohere
@@ -316,4 +315,3 @@ DOMAIN-KEYWORD,hcompany
 DOMAIN-KEYWORD,groq
 DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,deepseek.com
