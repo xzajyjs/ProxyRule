@@ -3,7 +3,7 @@
 # SOURCES:
 # - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # - Shadowrocket_to_Surge_Mac.conf (Proxy -> 🌏 国外网站)
-# TOTAL: 6404
+# TOTAL: 6399
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,bit.no.com
@@ -1078,9 +1078,6 @@ DOMAIN-SUFFIX,clipconverter.cc
 DOMAIN-SUFFIX,clipfish.de
 DOMAIN-SUFFIX,clips4sale.com
 DOMAIN-SUFFIX,cloakpoint.com
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,cloudflare-ipfs.com
-DOMAIN-SUFFIX,cloudflarestatus.com
 DOMAIN-SUFFIX,club1069.com
 DOMAIN-SUFFIX,clubhouseapi.com
 DOMAIN-SUFFIX,clyp.it
@@ -3878,7 +3875,6 @@ DOMAIN-SUFFIX,pacopacomama.com
 DOMAIN-SUFFIX,padmanet.com
 DOMAIN-SUFFIX,page.tl
 DOMAIN-SUFFIX,page2rss.com
-DOMAIN-SUFFIX,pages.dev
 DOMAIN-SUFFIX,pagodabox.com
 DOMAIN-SUFFIX,paimon.moe
 DOMAIN-SUFFIX,palacemoon.com
@@ -5835,7 +5831,6 @@ DOMAIN-SUFFIX,work2icu.org
 DOMAIN-SUFFIX,workatruna.com
 DOMAIN-SUFFIX,workerdemo.org.hk
 DOMAIN-SUFFIX,workerempowerment.org
-DOMAIN-SUFFIX,workers.dev
 DOMAIN-SUFFIX,workersthebig.net
 DOMAIN-SUFFIX,worldcat.org
 DOMAIN-SUFFIX,worldjournal.com

@@ -58,6 +58,7 @@ Top files cleaned:
 | 💳 Wise | `wise.list` | 1 |
 | 🇺🇸 Apple美区服务 | `apple_us.list` | 4 |
 | 👿 AI | `ai.list` | 313 |
+| Cloudflare | `cloudflare.list` | 76 |
 | 📢 谷歌FCM | `google_fcm.list` | 35 |
 | 📲 电报消息 | `telegram.list` | 11 |
 | 🎶 网易音乐 | `netease_music.list` | 33 |
@@ -98,4 +99,16 @@ Top files cleaned:
 | 🌏 国内流媒体 | `china_media.list` | 181 |
 | 🌏 国外流媒体 | `global_media.list` | 1286 |
 | 🌏 国内网站 | `china.list` | 29560 |
-| 🌏 国外网站 | `global.list` | 6404 |
+| 🌏 国外网站 | `global.list` | 6399 |
+
+## Cloudflare
+
+`cloudflare.list` contains Cloudflare service and hosted-platform domain rules from [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/classical/cloudflare.yaml). Five existing Cloudflare rules were moved from `global.list` into this file.
+
+Add this rule after `ai.list` and before `global.list` to preserve the existing AI-specific Cloudflare routing:
+
+```ini
+RULE-SET,https://raw.githubusercontent.com/xzajyjs/ProxyRule/main/Surge/rules/cloudflare.list,Proxy
+```
+
+Replace `Proxy` with the desired policy name if needed. This list covers Cloudflare domains, including `pages.dev`, `workers.dev`, and `r2.dev`; it does not include shared CDN IP ranges.
